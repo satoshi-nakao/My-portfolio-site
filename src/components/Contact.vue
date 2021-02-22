@@ -1,20 +1,19 @@
 <template>
 <v-container>
     <v-row>
-    <v-col cols=4>
-    <v-btn @click="link">
-    <v-icon>mdi-github</v-icon>
-    </v-btn>
+    <v-col cols=4>   
+    <v-btn @click="link"> 
+    <v-icon color='#211F1F'>mdi-github</v-icon>
+    </v-btn> 
     </v-col>
-    <v-spacer></v-spacer>
     <v-col cols=4>
     <v-btn @click="link2">
-    <v-icon> mdi-twitter</v-icon>
+    <v-icon color="#1DA1F2"> mdi-twitter</v-icon>
    </v-btn>
     </v-col>
     <v-col cols=4>
     <v-btn @click="link3">
-    <v-icon>mdi-instagram</v-icon>
+    <v-icon color="#f21de7">mdi-instagram</v-icon>
     </v-btn>    
     </v-col>
     </v-row>
